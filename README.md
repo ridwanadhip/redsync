@@ -1,7 +1,7 @@
 # Redsync
 
 WARNING: THIS IS FORK OF ORIGINAL REDSYNC (https://github.com/go-redsync/redsync) THAT DOESN'T DEPENDS TO GO-REDIS.
-THE REASON TO DO THIS IS TO REMOVE PROTOBUF DEPENDENCY IN SOURCE CODE. SEE ORIGINAL REPO FOR ADDITIONAL INFO AND LATEST UPDATE
+THE REASON TO DO THIS IS TO REMOVE PROTOBUF DEPENDENCY IN SOURCE CODE. SEE ORIGINAL REPO FOR ADDITIONAL INFO AND LATEST UPDATE.
 
 Redsync provides a Redis-based distributed mutual exclusion lock implementation for Go as described in [this post](http://redis.io/topics/distlock). A reference library (by [antirez](https://github.com/antirez)) for Ruby is available at [github.com/antirez/redlock-rb](https://github.com/antirez/redlock-rb).
 

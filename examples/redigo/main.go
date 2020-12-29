@@ -3,9 +3,9 @@ package main
 import (
 	"time"
 
-	"github.com/go-redsync/redsync/v4"
-	"github.com/go-redsync/redsync/v4/redis/redigo"
 	redigolib "github.com/gomodule/redigo/redis"
+	"github.com/ridwanadhip/redsync"
+	"github.com/ridwanadhip/redsync/redis/redigo"
 	"github.com/stvp/tempredis"
 )
 
