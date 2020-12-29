@@ -1,7 +1,7 @@
 # Redsync
 
-FORK OF ORIGINAL REDSYNC (https://github.com/go-redsync/redsync) THAT DOESN'T DEPENDS TO GO-REDIS LIBRARY
-SEE ORIGINAL REPO FOR ADDITIONAL INFO AND LATEST UPDATE
+WARNING: THIS IS FORK OF ORIGINAL REDSYNC (https://github.com/go-redsync/redsync) THAT DOESN'T DEPENDS TO GO-REDIS.
+THE REASON TO DO THIS IS TO REMOVE PROTOBUF DEPENDENCY IN SOURCE CODE. SEE ORIGINAL REPO FOR ADDITIONAL INFO AND LATEST UPDATE
 
 Redsync provides a Redis-based distributed mutual exclusion lock implementation for Go as described in [this post](http://redis.io/topics/distlock). A reference library (by [antirez](https://github.com/antirez)) for Ruby is available at [github.com/antirez/redlock-rb](https://github.com/antirez/redlock-rb).
 
@@ -9,12 +9,11 @@ Redsync provides a Redis-based distributed mutual exclusion lock implementation 
 
 Install Redsync using the go get command:
 
-    $ go get github.com/go-redsync/redsync/v4
+    $ go get github.com/ridwanadhip/redsync
 
-Two driver implementations will be installed; however, only the one used will be included in your project.
+There is one driver that supported by this library:
 
  * [Redigo](https://github.com/gomodule/redigo)
- * [Go-redis](https://github.com/go-redis/redis)
 
 See the [examples](examples) folder for usage of each driver.
 
