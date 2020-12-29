@@ -1,4 +1,4 @@
-module github.com/ridwanadhip/redsync
+module github.com/ridwanadhip/redsync/v4
 
 go 1.14
 

@@ -3,7 +3,7 @@ package redsync
 import (
 	"time"
 
-	"github.com/ridwanadhip/redsync/redis"
+	"github.com/ridwanadhip/redsync/v4/redis"
 )
 
 // Redsync provides a simple method for creating distributed mutexes using multiple Redis connection pools.

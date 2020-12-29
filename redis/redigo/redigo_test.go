@@ -1,6 +1,6 @@
 package redigo
 
-import "github.com/ridwanadhip/redsync/redis"
+import "github.com/ridwanadhip/redsync/v4/redis"
 
 var _ redis.Conn = (*conn)(nil)
 

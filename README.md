@@ -10,7 +10,7 @@ Redsync provides a Redis-based distributed mutual exclusion lock implementation 
 
 Install Redsync using the go get command:
 
-    $ go get github.com/ridwanadhip/redsync
+    $ go get github.com/ridwanadhip/redsync/v4
 
 There is one driver that supported by this library:
 
